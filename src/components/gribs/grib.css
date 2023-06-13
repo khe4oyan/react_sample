@@ -1,0 +1,71 @@
+.gribs{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--gradient);
+  padding: 20px;
+}
+.gribs__lessonName{
+  background-color: var(--base-color-2);
+  color: var(--base-color-1);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.gribs__grib {
+  text-align: center;
+  background-color: var(--details-color-1);
+  margin-bottom: 3px;
+  border-radius: 10px;
+}
+.gribs__grib summary{
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.gribs__grib[open]{
+  background-color: var(--details-open);
+  color: var(--details-color-2);
+}
+.gribs__grib[open] summary{
+  border-bottom: 2px dotted var(--details-color-2);
+}
+.gribs__grib__paragpaph {
+  padding: 0px 0px 0px 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.gribs__grib__paragpaph:first-of-type {
+  margin-top: 10px;
+}
+.gribs__grib summary::marker, 
+.gribs__grib summary::-webkit-details-marker{
+  content: none;
+}
+.youtube{
+  background-color: rgb(171, 32, 32);
+  color: var(--details-color-2);
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.close_button{
+  --size: 60px;
+  border-radius: 50%;
+  font-size: 2rem;
+  width: var(--size);
+  height: var(--size);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  border: 2px solid var(--base-color-2);
+  color: var(--base-color-2);
+  background-color: var(--base-color-1);
+}

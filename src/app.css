@@ -1,0 +1,45 @@
+*{
+  --base-color-1: #928DAB;
+  --base-color-2: #1F1C2C;
+
+  --details-color-1: rgba(255,255,255,.3);
+  --details-color-2: rgb(255, 255, 255);
+  --details-open: rgba(32, 32, 32, 0.895);
+
+  --gradient: linear-gradient(var(--base-color-1), var(--base-color-2));
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+body{
+  min-height: 100vh;
+  padding: 20px;
+  background: var(--gradient);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: grid;
+  max-width: 500px;
+  margin: auto;
+}
+.lessonName{
+  width: 100%;
+  margin: auto;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: var(--base-color-1);
+  background-color: var(--base-color-2);
+}
