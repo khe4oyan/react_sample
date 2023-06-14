@@ -27,6 +27,7 @@ body{
   display: grid;
   max-width: 500px;
   margin: auto;
+  margin-bottom: 50px;
 }
 .lessonName{
   width: 100%;

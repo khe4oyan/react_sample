@@ -1,0 +1,20 @@
+*{
+  --base-color-1: rgb(255, 255, 255);
+  --base-color-2: #000000e3;
+
+  --details-color-1: #000000bb;
+  --details-color-2: rgb(0, 0, 0);
+  --details-open: #ffffffd2;
+
+	--gradient: url('./themes_icons/space.png') center center / cover;
+}
+
+.gribs__grib {
+  background-color: var(--details-color-1);
+}
+.gribs__grib summary{
+	color: var(--base-color-1);
+}
+.gribs__grib[open] summary {
+	color: var(--base-color-2);
+}

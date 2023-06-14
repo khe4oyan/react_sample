@@ -15,40 +15,9 @@
   margin-bottom: 5px;
   border-radius: 5px;
 }
-.gribs__grib {
-  text-align: center;
-  background-color: var(--details-color-1);
-  margin-bottom: 3px;
-  border-radius: 10px;
-}
-.gribs__grib summary{
-  padding: 10px;
-  font-size: 1.3rem;
-  font-weight: 900;
-}
-.gribs__grib[open]{
-  background-color: var(--details-open);
-  color: var(--details-color-2);
-}
-.gribs__grib[open] summary{
-  border-bottom: 2px dotted var(--details-color-2);
-}
-.gribs__grib__paragpaph {
-  padding: 0px 0px 0px 10px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.gribs__grib__paragpaph:first-of-type {
-  margin-top: 10px;
-}
-.gribs__grib summary::marker, 
-.gribs__grib summary::-webkit-details-marker{
-  display: none;
-  content: none;
-}
 .youtube{
   background-color: rgb(171, 32, 32);
-  color: var(--details-color-2);
+  color: white;
   padding: 10px;
   font-weight: bolder;
   text-align: center;
