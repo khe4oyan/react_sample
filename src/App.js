@@ -2,7 +2,6 @@ import './app.css';
 import { data } from './data/data';
 import { useState } from 'react';
 import Gribs from './components/gribs/Gribs';
-import ThemeSetter from './components/themeSetter/ThemeSetter';
 
 export default function App() {
   const [showGribs, setShowGribs] = useState(null);
@@ -14,7 +13,6 @@ export default function App() {
   const hideGribs = () => {
     setShowGribs(null);
   }
-
 
   return (
     <div className="App">
@@ -30,8 +28,6 @@ export default function App() {
         data={ data }
         hideGribs={ hideGribs }
       />
-
-      <ThemeSetter />
     </div>
   );
 }
