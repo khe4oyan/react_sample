@@ -43,6 +43,7 @@
 }
 .gribs__grib summary::marker, 
 .gribs__grib summary::-webkit-details-marker{
+  display: none;
   content: none;
 }
 .youtube{
