@@ -1,6 +1,7 @@
-import './details.css';
+import './Details.css';
 
 export default function Details({ data }) {
+  console.log(data);
   return(
     <details className="gribs__grib">
       <summary>{data[0]}</summary>

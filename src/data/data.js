@@ -22,9 +22,167 @@ export const data = [
 			['Однонапрвленный поток данных', '(One-Way Data Flow) - это принцип, который используется в React для управления данными и их передачи между компонентами. Согласно этому принципу, данные в React приложении должны двигаться только в одном направлении: сверху вниз (от родительских компонентов к дочерним компонентам). # Один источник истины (Single Source of Truth): Вся состояние приложения хранится в одном месте - обычно в верхнем уровне компонента (например, в состоянии компонента-контейнера или в хранилище состояния, таком как Redux). Это состояние является единственным источником истины для всего приложения. # Прокидывание данных через пропсы: Данные передаются от родительских компонентов к дочерним компонентам через пропсы. Родительский компонент может передавать данные в виде пропсов своим дочерним компонентам, и те, в свою очередь, могут передавать эти данные своим дочерним компонентам. # Неизменяемость данных: Данные в React приложении должны быть неизменяемыми. Это означает, что данные не могут быть изменены напрямую. Вместо этого, при необходимости изменить данные, создается новая копия, которая затем передается дальше по иерархии компонентов. # Обработка событий: Когда происходит событие в дочернем компоненте (например, клик на кнопку), он вызывает обработчик событий, переданный ему из родительского компонента. Родительский компонент может обновить состояние или данные и передать их обратно вниз по иерархии компонентов.'],
 		],
 	},
+	{
+		lessonName: 'Lesson 3',
+		video: 'https://youtu.be/91YJjKEMzco',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 4',
+		video: 'https://youtu.be/l_8lz067Wfo',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 5',
+		video: 'https://www.youtube.com/watch?v=TVKHfph22ok',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 6',
+		video: 'https://youtu.be/sJA5uWUt3rY',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 7',
+		video: 'https://youtu.be/Mlfs3ex6Rts',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 8',
+		video: 'https://youtu.be/raK5dSz8FAQ',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 9',
+		video: 'https://youtu.be/up6XCtIS_xU',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 10',
+		video: 'https://youtu.be/Pq-gxxazIV0',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 11',
+		video: 'https://youtu.be/dF6nsN1xXEU',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 12',
+		video: 'https://youtu.be/LW-0Ot_N7XQ',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 13',
+		video: 'https://youtu.be/0UhAg3FtTEA',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 14',
+		video: 'https://youtu.be/ZVwK5WS3-o0',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 15',
+		video: 'https://youtu.be/xxXsIlPoMls',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 16',
+		video: 'https://www.youtube.com/watch?v=7lveHdZQmzw',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 17',
+		video: 'https://www.youtube.com/watch?v=18mUF6Gi3Bo',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 18',
+		video: 'https://www.youtube.com/watch?v=oU8CuyRMUQc',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 19',
+		video: 'https://www.youtube.com/watch?v=h9nDJ04B8iQ',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 20',
+		video: 'https://www.youtube.com/watch?v=kt8FEvOMu3M',
+		gribs: [],
+	},
+	{ lessonName: '(lost)', video: '', gribs: [] },
+	{
+		lessonName: 'Lesson 22',
+		video: 'https://www.youtube.com/watch?v=s2a8hGWoG-w',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 23',
+		video: 'https://www.youtube.com/watch?v=XoZUzvHsCxQ',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 24',
+		video: 'https://www.youtube.com/watch?v=QAUAHqbG2H8',
+		gribs: [],
+	},
+	{ lessonName: '(lost)', video: '', gribs: [] },
+	{ lessonName: '(lost)', video: '', gribs: [] },
+	{
+		lessonName: 'Lesson 27',
+		video: 'https://www.youtube.com/watch?v=xQaQW3hZ7RI',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 28',
+		video: 'https://www.youtube.com/watch?v=AbRVyTSI3Ds',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 29',
+		video: 'https://www.youtube.com/watch?v=6HlIwt8rbhI',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 30',
+		video: 'https://www.youtube.com/watch?v=e6js4vwf4uw',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 31',
+		video: 'https://www.youtube.com/watch?v=Gd3u_GvBh2U',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 32',
+		video: 'https://www.youtube.com/watch?v=Z_3MXdg5GQY',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 33',
+		video: 'https://www.youtube.com/watch?v=7wCAAH21g58',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 34',
+		video: 'https://www.youtube.com/watch?v=vbpTTkot9MA',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 35',
+		video: 'https://www.youtube.com/watch?v=NvPe1uuaGas',
+		gribs: [],
+	},
+	{
+		lessonName: 'Lesson 36',
+		video: 'https://www.youtube.com/watch?v=ic12HHoF1L4',
+		gribs: [],
+	},
 
 	// {
-	// 	lessonName: '',
+	// 	lessonName: 'Lesson ',
 	// 	video: '',
 	// 	gribs: [
 	// 		['', ''],

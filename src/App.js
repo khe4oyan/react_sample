@@ -1,33 +1,18 @@
 import './app.css';
-import { data } from './data/data';
-import { useState } from 'react';
-import Gribs from './components/gribs/Gribs';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Gribs from './pages/Gribs/Gribs';
+import ROUTES from './data/routes';
 
 export default function App() {
-  const [showGribs, setShowGribs] = useState(null);
-
-  const showLessonGribs = (ind) => {
-    setShowGribs(ind);
-  }
-
-  const hideGribs = () => {
-    setShowGribs(null);
-  }
-
   return (
     <div className="App">
       <div className='container'>
-        {
-          data.map((item ,ind) => {
-            return <button onClick={() => {showLessonGribs(ind)}} className='lessonName' key={`key${ind}`}>{ `Lesson ${ind + 1}: ${item.lessonName ?? '-'}` }</button>
-          })
-        }
+        <Routes>
+          <Route path={ROUTES.HOME} element={<Home />}/>
+          <Route path={`${ROUTES.GRIBS}/:ind`} element={<Gribs />}/>
+        </Routes>
       </div>
-      <Gribs 
-        showGribs={ showGribs } 
-        data={ data }
-        hideGribs={ hideGribs }
-      />
     </div>
   );
 }

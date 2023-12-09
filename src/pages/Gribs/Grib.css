@@ -25,17 +25,3 @@
   border-radius: 5px;
   text-decoration: none;
 }
-.close_button{
-  --size: 60px;
-  border-radius: 50%;
-  font-size: 2rem;
-  width: var(--size);
-  height: var(--size);
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 10;
-  border: 2px solid var(--base-color-2);
-  color: var(--base-color-2);
-  background-color: var(--base-color-1);
-}

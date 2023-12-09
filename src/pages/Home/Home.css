@@ -1,0 +1,21 @@
+.lesson{
+  width: 100%;
+  margin: auto;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--base-color-1);
+  background-color: var(--base-color-2);
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.lost {
+  opacity: .5;
+}
+/* .lessonName{} */
+.lessonIndex{
+  padding-right: 10px;
+}
